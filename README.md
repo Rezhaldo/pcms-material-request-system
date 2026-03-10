@@ -2,25 +2,33 @@
 
 A full-stack web application for managing material requests and their associated material details.
 
-This project was developed as part of a technical assessment. It demonstrates a clean full-stack architecture including a React-based frontend, REST API backend, and relational database design.
+This project was developed as part of a technical assessment. It demonstrates a clean full-stack architecture including a Next.js frontend, REST API backend, and relational database design.
+
+---
+
+## Project Overview
+
+This application allows users to:
+
+- **Create**, **view**, **edit**, and **delete** material requests  
+- Manage multiple materials per request  
+- Maintain a clean and logical relational database design  
+
+The system focuses on **clarity, clean code, and understanding of programming fundamentals**.
 
 ---
 
 # Repository Structure
-pcsm-material-request-system
+```text
+pcms-material-request-system/
 │
-├── material-request-frontend
-│ Frontend application (Next.js + TypeScript)
-│
-├── material-request-backend
-│ Backend API (NestJS + Prisma)
-│
-├── database
-│ material_request_schema.sql
-│
+├── material-request-frontend/       # Frontend application (Next.js + TypeScript)
+├── material-request-backend/        # Backend API (NestJS + Prisma)
+├── database/                        # SQL database file
+│   └── material_request.sql
 ├── README.md
 └── .gitignore
-
+```
 
 ---
 
